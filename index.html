@@ -17,9 +17,9 @@
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a>Menu</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
                 </ul>
             </div>
@@ -27,7 +27,7 @@
     </header>
     <main>
         <!-- Hero Section -->
-        <section class="h-[60vh] bg-cover bg-center flex" style="background-image: url('hero.jpg');">
+        <section class="h-[85vh] bg-cover bg-center flex" style="background-image: url('hero.jpg');">
             <div class="text-black bg-orange-100/20 w-2/5 rounded-xl p-4 my-auto ">
                 <h1 class="text-6xl font-bold">Discover Exceptional <span class="text-primary">Flavor</span></h1>
                 <h3 class="font-mono">Your Journey Begins at <span class="fw-bold fs-2 text-danger">Spice <span
@@ -35,9 +35,11 @@
                 <p class="text-2xl">At Spice Hub, enjoy the authentic flavors of Bangladesh in a welcoming
                     ambiance. From flavorful curries to traditional street food, each dish reflects our commitment to
                     quality and heritage.</p>
-                <a href="{% url 'meals'%}"><button class="btn btn-lg btn-outline btn-neutral mt-4">Reserve Now</button></a>
+                <a href="reservation.html"><button class="btn btn-lg btn-neutral mt-4">Reserve Now</button></a>
+                <a href="menu.html"><button class="btn btn-lg ms-4 mt-4">See Menu</button></a>
             </div>
         </section>
+
     </main>
     <footer class="footer items-center p-4 bg-neutral text-neutral-content">
         <aside class="items-center grid-flow-col">
